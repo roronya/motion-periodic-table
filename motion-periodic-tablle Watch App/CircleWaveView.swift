@@ -84,7 +84,51 @@ struct RectangleWaveView: View {
     }
 }
 
+struct HexagonWaveView: View {
+    var body: some View {
+        KeyframeAnimator(initialValue: WaveAnimationValues()) { value in
+            ZStack {
+                Hexagon()
+                    .stroke(Color.blue03, lineWidth: 10)
+                    .frame(width: value.scale0*100, height: value.scale0*100)
+                    .rotationEffect(.degrees(10))
+                Hexagon()
+                    .stroke(Color.blue03, lineWidth: 10)
+                    .frame(width: value.scale1*100, height: value.scale1*100)
+                    .rotationEffect(.degrees(20))
+                Hexagon()
+                    .stroke(Color.blue03, lineWidth: 10)
+                    .frame(width: value.scale2*100, height: value.scale2*100)
+                    .rotationEffect(.degrees(30))
+            }
+        } keyframes: { _ in
+            KeyframeTrack(\.scale0) {
+                LinearKeyframe(0.0, duration: 0.0)
+                LinearKeyframe(1.0, duration: 0.8)
+                LinearKeyframe(2.0, duration: 0.8)
+                LinearKeyframe(3.0, duration: 0.8)
+            }
+            KeyframeTrack(\.scale1) {
+                LinearKeyframe(1.0, duration: 0.0)
+                LinearKeyframe(2.0, duration: 0.8)
+                LinearKeyframe(3.0, duration: 0.8)
+                LinearKeyframe(0.0, duration: 0.0)
+                LinearKeyframe(1.0, duration: 0.8)
+            }
+            KeyframeTrack(\.scale2) {
+                LinearKeyframe(2.0, duration: 0.0)
+                LinearKeyframe(3.0, duration: 0.8)
+                LinearKeyframe(0.0, duration: 0.0)
+                LinearKeyframe(1.0, duration: 0.8)
+                LinearKeyframe(2.0, duration: 0.8)
+            }
+        }
+    }
+}
+
+
 #Preview {
-    RectangleWaveView()
+    HexagonWaveView()
+    //RectangleWaveView()
     //CircleWaveView()
 }
