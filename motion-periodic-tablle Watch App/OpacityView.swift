@@ -21,7 +21,7 @@ struct OpacityView: View {
 }
 
 
-struct DebugView_Previews: PreviewProvider {
+struct OpacityView_Previews: PreviewProvider {
     static var previews: some View {
         OpacityView(duration: 0.8, extraBounce: 0.1)
     }
