@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		733BB8312D4E46C600C5A72F /* motion-periodic-tablle Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 733BB8302D4E46C600C5A72F /* motion-periodic-tablle Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		733BB8322D4E46C600C5A72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 733BB8242D4E46C600C5A72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733BB82F2D4E46C600C5A72F;
+			remoteInfo = "motion-periodic-tablle Watch App";
+		};
+		733BB8432D4E46C800C5A72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 733BB8242D4E46C600C5A72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733BB82F2D4E46C600C5A72F;
+			remoteInfo = "motion-periodic-tablle Watch App";
+		};
+		733BB84D2D4E46C800C5A72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 733BB8242D4E46C600C5A72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733BB82F2D4E46C600C5A72F;
+			remoteInfo = "motion-periodic-tablle Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		733BB8592D4E46C800C5A72F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				733BB8312D4E46C600C5A72F /* motion-periodic-tablle Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		733BB82A2D4E46C600C5A72F /* motion-periodic-tablle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "motion-periodic-tablle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733BB8302D4E46C600C5A72F /* motion-periodic-tablle Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "motion-periodic-tablle Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733BB8422D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "motion-periodic-tablle Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733BB84C2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "motion-periodic-tablle Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		733BB8342D4E46C600C5A72F /* motion-periodic-tablle Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "motion-periodic-tablle Watch App";
+			sourceTree = "<group>";
+		};
+		733BB8452D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "motion-periodic-tablle Watch AppTests";
+			sourceTree = "<group>";
+		};
+		733BB84F2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "motion-periodic-tablle Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733BB82D2D4E46C600C5A72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB83F2D4E46C800C5A72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB8492D4E46C800C5A72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		733BB8232D4E46C600C5A72F = {
+			isa = PBXGroup;
+			children = (
+				733BB8342D4E46C600C5A72F /* motion-periodic-tablle Watch App */,
+				733BB8452D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests */,
+				733BB84F2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests */,
+				733BB82B2D4E46C600C5A72F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		733BB82B2D4E46C600C5A72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733BB82A2D4E46C600C5A72F /* motion-periodic-tablle.app */,
+				733BB8302D4E46C600C5A72F /* motion-periodic-tablle Watch App.app */,
+				733BB8422D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests.xctest */,
+				733BB84C2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		733BB8292D4E46C600C5A72F /* motion-periodic-tablle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733BB85A2D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle" */;
+			buildPhases = (
+				733BB8282D4E46C600C5A72F /* Resources */,
+				733BB8592D4E46C800C5A72F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				733BB8332D4E46C600C5A72F /* PBXTargetDependency */,
+			);
+			name = "motion-periodic-tablle";
+			packageProductDependencies = (
+			);
+			productName = "motion-periodic-tablle";
+			productReference = 733BB82A2D4E46C600C5A72F /* motion-periodic-tablle.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		733BB82F2D4E46C600C5A72F /* motion-periodic-tablle Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733BB8562D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle Watch App" */;
+			buildPhases = (
+				733BB82C2D4E46C600C5A72F /* Sources */,
+				733BB82D2D4E46C600C5A72F /* Frameworks */,
+				733BB82E2D4E46C600C5A72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				733BB8342D4E46C600C5A72F /* motion-periodic-tablle Watch App */,
+			);
+			name = "motion-periodic-tablle Watch App";
+			packageProductDependencies = (
+			);
+			productName = "motion-periodic-tablle Watch App";
+			productReference = 733BB8302D4E46C600C5A72F /* motion-periodic-tablle Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		733BB8412D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733BB85D2D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle Watch AppTests" */;
+			buildPhases = (
+				733BB83E2D4E46C800C5A72F /* Sources */,
+				733BB83F2D4E46C800C5A72F /* Frameworks */,
+				733BB8402D4E46C800C5A72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				733BB8442D4E46C800C5A72F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				733BB8452D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests */,
+			);
+			name = "motion-periodic-tablle Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "motion-periodic-tablle Watch AppTests";
+			productReference = 733BB8422D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		733BB84B2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733BB8602D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle Watch AppUITests" */;
+			buildPhases = (
+				733BB8482D4E46C800C5A72F /* Sources */,
+				733BB8492D4E46C800C5A72F /* Frameworks */,
+				733BB84A2D4E46C800C5A72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				733BB84E2D4E46C800C5A72F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				733BB84F2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests */,
+			);
+			name = "motion-periodic-tablle Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "motion-periodic-tablle Watch AppUITests";
+			productReference = 733BB84C2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		733BB8242D4E46C600C5A72F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					733BB8292D4E46C600C5A72F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					733BB82F2D4E46C600C5A72F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					733BB8412D4E46C800C5A72F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 733BB82F2D4E46C600C5A72F;
+					};
+					733BB84B2D4E46C800C5A72F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 733BB82F2D4E46C600C5A72F;
+					};
+				};
+			};
+			buildConfigurationList = 733BB8272D4E46C600C5A72F /* Build configuration list for PBXProject "motion-periodic-tablle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 733BB8232D4E46C600C5A72F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 733BB82B2D4E46C600C5A72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				733BB8292D4E46C600C5A72F /* motion-periodic-tablle */,
+				733BB82F2D4E46C600C5A72F /* motion-periodic-tablle Watch App */,
+				733BB8412D4E46C800C5A72F /* motion-periodic-tablle Watch AppTests */,
+				733BB84B2D4E46C800C5A72F /* motion-periodic-tablle Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		733BB8282D4E46C600C5A72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB82E2D4E46C600C5A72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB8402D4E46C800C5A72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB84A2D4E46C800C5A72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		733BB82C2D4E46C600C5A72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB83E2D4E46C800C5A72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB8482D4E46C800C5A72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		733BB8332D4E46C600C5A72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 733BB82F2D4E46C600C5A72F /* motion-periodic-tablle Watch App */;
+			targetProxy = 733BB8322D4E46C600C5A72F /* PBXContainerItemProxy */;
+		};
+		733BB8442D4E46C800C5A72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 733BB82F2D4E46C600C5A72F /* motion-periodic-tablle Watch App */;
+			targetProxy = 733BB8432D4E46C800C5A72F /* PBXContainerItemProxy */;
+		};
+		733BB84E2D4E46C800C5A72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 733BB82F2D4E46C600C5A72F /* motion-periodic-tablle Watch App */;
+			targetProxy = 733BB84D2D4E46C800C5A72F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		733BB8542D4E46C800C5A72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		733BB8552D4E46C800C5A72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		733BB8572D4E46C800C5A72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"motion-periodic-tablle Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "motion-periodic-tablle";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		733BB8582D4E46C800C5A72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"motion-periodic-tablle Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "motion-periodic-tablle";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		733BB85B2D4E46C800C5A72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				INFOPLIST_KEY_CFBundleDisplayName = "motion-periodic-tablle";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		733BB85C2D4E46C800C5A72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				INFOPLIST_KEY_CFBundleDisplayName = "motion-periodic-tablle";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		733BB85E2D4E46C800C5A72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motion-periodic-tablle Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motion-periodic-tablle Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		733BB85F2D4E46C800C5A72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motion-periodic-tablle Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motion-periodic-tablle Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		733BB8612D4E46C800C5A72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "motion-periodic-tablle Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		733BB8622D4E46C800C5A72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WKLLUW3BU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.roronya.motion-periodic-tablle-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "motion-periodic-tablle Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733BB8272D4E46C600C5A72F /* Build configuration list for PBXProject "motion-periodic-tablle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733BB8542D4E46C800C5A72F /* Debug */,
+				733BB8552D4E46C800C5A72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733BB8562D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733BB8572D4E46C800C5A72F /* Debug */,
+				733BB8582D4E46C800C5A72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733BB85A2D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733BB85B2D4E46C800C5A72F /* Debug */,
+				733BB85C2D4E46C800C5A72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733BB85D2D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733BB85E2D4E46C800C5A72F /* Debug */,
+				733BB85F2D4E46C800C5A72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733BB8602D4E46C800C5A72F /* Build configuration list for PBXNativeTarget "motion-periodic-tablle Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733BB8612D4E46C800C5A72F /* Debug */,
+				733BB8622D4E46C800C5A72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 733BB8242D4E46C600C5A72F /* Project object */;
+}
