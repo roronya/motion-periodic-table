@@ -12,6 +12,9 @@ extension Color {
     static let green02: Color = .init(hex: "#008080")
     static let green03: Color = .init(hex: "#00b3b3")
     static let green04: Color = .init(hex: "#00e6e6")
+    
+    static let red00: Color = .init(hex: "#330a0a")
+    static let red10: Color = .init(hex: "#ff3030")
 
 
     init(hex: String) {
