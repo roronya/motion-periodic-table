@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        RepeatRotate()
+        TabView {
+            BlurView()
+            FlowingLineView()
+            GlowView()
+            OpacityView(duration: 1.0, extraBounce: 0.3)
+            OrbitView()
+            RepeatRotate()
+            RepeatScaleView()
+            RotateView()
+            TrimCircleView()
+            CircleWaveView()
+        }
     }
 }
 
