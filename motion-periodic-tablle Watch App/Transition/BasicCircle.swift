@@ -55,5 +55,9 @@ struct BasicCircle: View {
 }
 
 #Preview {
-    BasicCircle()
+    // BasicCircle()
+    TabView {
+        Circle().transition(.scale)
+        Circle().transition(.scale)
+    }
 }
